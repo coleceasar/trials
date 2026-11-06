@@ -1,0 +1,123 @@
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f5f7fb; 
+            padding: 20px; 
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .card { 
+            background: #fff; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin-bottom: 16px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06); 
+        }
+        .page-actions {
+            margin-bottom: 16px;
+        }
+        .btn-primary {
+            display: inline-block;
+            background: #0f766e;
+            color: #ffffff;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .btn-primary:hover {
+            background: #115e59;
+        }
+        .table-wrap { 
+            overflow-x: auto; 
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            background: #fff; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e5e7eb; 
+            text-align: left; 
+            vertical-align: top;
+            word-break: break-word;
+        }
+        th { 
+            background: #f8fafc; 
+            font-weight: 600;
+        }
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #6b7280;
+        }
+        .readonly-note {
+            font-weight: 700;
+            color: #065f46;
+            background: #ecfeff;
+            border: 1px solid #bbf7d0;
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        /* ensure table content appears read-only (no action links here) */
+        .table-wrap table td a, .table-wrap table td button {
+            pointer-events: none;
+            opacity: 0.85;
+        }
+                .table-wrap {
+            overflow-x: auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            margin-top: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #f8fafc;
+            color: #1e293b;
+            font-weight: 600;
+            padding: 12px 14px;
+            border-bottom: 2px solid #e2e8f0;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 12px 14px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+            color: #334155;
+        }
+
+        .col-property { min-width: 130px; }
+        .col-tenant { min-width: 120px; }
+        .col-unit { min-width: 90px; }
+        .col-type { min-width: 110px; white-space: nowrap; }
+        .col-priority { min-width: 100px; white-space: nowrap; }
+        .col-status { min-width: 100px; white-space: nowrap; }
+        .col-subject { min-width: 130px; }
+        .col-description { min-width: 230px; word-break: break-word; }
+        .col-reply { min-width: 230px; word-break: break-word; }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+            text-transform: capitalize;
+            font-size: 13px;
+        }
+        .badge-pending { background-color: #fef3c7; color: #92400e; }
+        .badge-replied { background-color: #d1fae5; color: #065f46; }
+        .badge-review { background-color: #e0f2fe; color: #075985; }

@@ -1,0 +1,54 @@
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 24px;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            background: #ffffff;
+        }
+        h2 {
+            margin-bottom: 24px;
+            font-size: 28px;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        .message {
+            margin-bottom: 18px;
+            padding: 14px 16px;
+            border-radius: 10px;
+        }
+        .message.error {
+            background: #fee2e2;
+            color: #b91c1c;
+            border: 1px solid #fca5a5;
+        }
+        .message.success {
+            background: #d1fae5;
+            color: #065f46;
+            border: 1px solid #6ee7b7;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #2563eb;
+            color: #ffffff;
+            font-weight: 700;
+            text-decoration: none;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        

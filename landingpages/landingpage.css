@@ -1,0 +1,21 @@
+        .hero-section {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a4da2 100%);
+            padding: 100px 0;
+        }
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        .card {
+            border: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }

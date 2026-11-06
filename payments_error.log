@@ -1,0 +1,11 @@
+{
+    "time": "2026-06-30T09:07:47+02:00",
+    "error": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'",
+    "input": {
+        "payment_method": "Mpesa",
+        "amount": "19000.00",
+        "transaction_reference": "ws_CO_30062026100747541757863200",
+        "phone_number": "0757863200"
+    },
+    "tenant": null
+}
